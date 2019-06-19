@@ -1,0 +1,16 @@
+[Unit]
+Description=uWSGI instance to serve manythanks
+After=network.target
+
+[Service]
+Type=simple
+KillMode=none
+Restart=on-failure
+User=http
+Group=http
+WorkingDirectory=/srv/manythanks
+ExecStart=/usr/bin/uwsgi --ini manythanks.ini
+
+
+[Install]
+WantedBy=multi-user.target
