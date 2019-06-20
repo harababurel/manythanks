@@ -1,6 +1,7 @@
 h1 {
-    font-size: 400%;
-    margin-top: 24%;
+    font-size: 300%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a {
@@ -18,8 +19,22 @@ div {
     top: 97%;
 }
 
+body {
+    background: #fbf1c7;
+    color: white;
+}
+
+.cmd {
+    font-weight: 700;
+    text-align: left;
+    color: #cc241d;
+    font-family: Courier;
+    margin-top: 10%;
+}
+
 .msg {
-    text-align: center;
+    font-weight: 100;
+    text-align: left;
     color: black;
     font-family: Courier;
 }
